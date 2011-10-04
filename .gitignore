@@ -3,6 +3,7 @@ Sort-TimSort-*
 !.gitignore
 !.shipit
 !.dim.pl
+inc/
 *.o
 *.obj
 *.bs
@@ -25,3 +26,4 @@ cover_db*
 *.gcov
 *.stackdump
 src/*.c
+src/*.cpp
