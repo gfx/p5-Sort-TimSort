@@ -24,6 +24,8 @@ BEGIN {
      }
 }
 use inc::Module::Install;
+makemaker_args CC => 'g++';
+makemaker_args LD => 'g++';
 
 all_from 'lib/Sort/TimSort.pm';
 
